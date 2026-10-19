@@ -1,4 +1,4 @@
-/*-----------------------------------------RESET-----------------------------------------*/
+/*-----------------------------------------RESET AND BODY-----------------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -92,4 +92,28 @@ text-decoration: none;
 padding: 15px;
 border-radius: 50px;
 }
+#main__social{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+#main__social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: transparent;
+   border: 2.5px solid #94a3b8;
+   color: #94a3b8;
+   font-size: 20px;
+   text-decoration: none;
+}
+/*-----------------------------------------SKILLS SECTION-----------------------------------------*/
+#sec__skills{
+    height: 80vh;
+}
+
 
