@@ -113,7 +113,143 @@ border-radius: 50px;
 }
 /*-----------------------------------------SKILLS SECTION-----------------------------------------*/
 #sec__skills{
-    height: 80vh;
+    height: auto;
+    margin-top: 70px;
 }
+.skills__title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.highlight__skills{
+    color: blueviolet;
+    margin-left: 10px;
+}
+#skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 30px;
+   margin-top: 30px;
+}
+.tec__list{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.soft__list{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.skills__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.progress__bar {
+    width: 700px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 10px;
+}
+#progress__html{
+    width: 80%;
+    height: 100%;
+    background-color: #a855f7;
+    border-radius: 10px;
+}
+#progress__css{
+    width: 60%;
+    height: 100%;
+    background-color: #71a4eb;
+    border-radius: 10px;
+}
+#progress__js{
+    width: 40%;
+    height: 100%;
+    background-color: #f7a855;
+    border-radius: 10px;
+}
+#progress__php{
+    width: 40%;
+    height: 100%;
+    background-color: #71a4eb;
+    border-radius: 10px;
+}
+#progress__comm{
+    width: 85%;
+    height: 100%;
+    background-color: #f7a855;
+    border-radius: 10px;
+}
+#progress__team{
+    width: 70%;
+    height: 100%;
+    background-color: #71a4eb;
+    border-radius: 10px;
+}
+#progress__problem{
+    width: 60%;
+    height: 100%;
+    background-color: #f7a855;
+    border-radius: 10px;
+}
+#progress__time{
+    width: 40%;
+    height: 100%;
+    background-color: #71a4eb;
+    border-radius: 10px;
+}
+#technologies{
+    margin-top: 60px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.techno__title{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+.highlight__techno{
+    color: blueviolet;
+    margin-left: 5px;
+}
+#tools__container{
+  display: grid;
+  grid-template-columns: repeat(5, 240px);
+  gap: 30px;
+}
+.tools__card{
+  width: 240px; 
+  height: 150px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+    background-color: #333;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.tools__card i {
+    font-size: 40px;
+}
+.tools__card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px blueviolet;
+}
+
+
+
 
 
