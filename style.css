@@ -207,6 +207,7 @@ border-radius: 50px;
     background-color: #71a4eb;
     border-radius: 10px;
 }
+/*-----------------------------------------TECHNOLOGIES SECTION-----------------------------------------*/
 #technologies{
     margin-top: 60px;
       display: flex;
@@ -247,6 +248,39 @@ border-radius: 50px;
 .tools__card:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 20px blueviolet;
+}
+/*-----------------------------------------PROJECTS SECTION-----------------------------------------*/
+#sec__projects{
+    height: 100vh;
+}
+#projects__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.project__card{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: #333;
+    border-radius: 12px;
+    padding: 20px;
+}
+.project__card img{
+    height: 120px;
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.project__card__btns{
+    display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.project__card__tools{
+    display: flex;
+   flex-direction: row;
+   gap: 20px;
 }
 
 
