@@ -1,0 +1,118 @@
+/* SMALL SCREENS: 320px - 768px */
+@media (max-width: 768px) {
+
+    /*-----------------------------------------HEADER-----------------------------------------*/
+    #nav {
+        padding: 15px;
+        font-size: 15px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav__list {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*-----------------------------------------MAIN-----------------------------------------*/
+    #sec__main {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        min-height: auto;
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    #main__content {
+        width: 100%;
+    }
+
+    .main__title {
+        font-size: 32px;
+    }
+
+    .main__title__h2 {
+        font-size: 17px;
+    }
+
+    .main__title__p {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+    #main__img img {
+        width: min(280px, 75vw);
+        height: min(280px, 75vw);
+    }
+
+    #main__btn,
+    #main__social {
+        justify-content: center;
+    }
+
+    /*-----------------------------------------SKILLS-----------------------------------------*/
+    #skills {
+        flex-direction: column;
+        gap: 35px;
+        padding: 0 20px;
+    }
+
+    #tec__skills,
+    #soft__skills {
+        width: 100%;
+    }
+
+    .progress__bar {
+        width: 100%;
+    }
+
+    /*-----------------------------------------TECHNOLOGIES-----------------------------------------*/
+    #tools__container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+        width: calc(100% - 40px);
+    }
+
+    .tools__card {
+        width: 100%;
+        height: 120px;
+    }
+
+    /*-----------------------------------------PROJECTS-----------------------------------------*/
+    #projects__container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    .project__card {
+        width: 100%;
+        min-width: 0;
+    }
+
+    /*-----------------------------------------CONTACT-----------------------------------------*/
+    #sec__contact {
+        padding: 40px 20px;
+    }
+
+    #contact__container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 35px;
+    }
+
+    .contact__inputs {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    /*-----------------------------------------FOOTER-----------------------------------------*/
+    #footer {
+        text-align: center;
+        padding: 20px 15px;
+    }
+}
