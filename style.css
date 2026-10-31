@@ -8,9 +8,19 @@
 body {
     background-color: #09035e;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+    padding-top: 70px;
+
 }
 /*-----------------------------------------HEADER-----------------------------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 #nav{
    display: flex;
    justify-content: space-between;
