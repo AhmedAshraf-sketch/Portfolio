@@ -197,8 +197,8 @@
             <span>CSS3</span>
         </div>
         <div class="project__card__btns">
-            <a class="project__code__btn" href="#"><i class="fa-brands fa-github"></i> Code</a>
-            <a class="project__demo__btn" href="https://ahmedashraf-sketch.github.io/Portfolio/">Live Demo</a>
+            <a class="project__code__btn" href="https://github.com/AhmedAshraf-sketch/Portfolio" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            <a class="project__demo__btn" href="https://ahmedashraf-sketch.github.io/Portfolio/" target="_blank">Live Demo</a>
         </div>
         </div>
         <!--Project 2-->
@@ -281,26 +281,29 @@
         <div id="contact__form__container">
             <h3>Send Me a Message</h3>
 
-            <form id="contact__form">
+            <form id="contact__form" action="https://formsubmit.co/ahas7291@gmail.com" method="POST">
+
                 <div class="contact__inputs">
-                    <div>
-                        <label>Your Name</label>
-                        <input type="text" required>
-                    </div>
-                    <div>
-                        <label>Your Email</label>
-                        <input type="email" required>
-                    </div>
-                </div>
+                <div>
+            <label for="user_name">Your Name</label>
+            <input type="text" id="user_name" name="name" required>
+            </div>
 
-                <label>Subject</label>
-                <input type="text" required>
+            <div>
+            <label for="user_email">Your Email</label>
+            <input type="email" id="user_email" name="email" required>
+        </div>
+    </div>
 
-                <label>Message</label>
-                <textarea rows="5" required></textarea>
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" required>
 
-                <button type="submit">Send Message</button>
-            </form>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
         </div>
 
     </div>
